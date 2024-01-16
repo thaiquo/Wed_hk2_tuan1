@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        form{
+            background-color: rgb(125, 164, 227);
+            height:900px;
+        }
+
+        .logo{
+            background-color: aqua;
+            width: 270px;
+            border-radius: 20px;
+            margin: auto;
+        }
+
+        .logo h1{
+            text-align: center;
+            font-family: fantasy;
+        }
+
+        .title{
+            min-width: 200px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <div class="logo">
+            <h1>Jackson</h1>
+            <hr style="border: 2px solid #000;">
+            <h1>Electronic</h1>
+        </div>
+        <h2 style="margin: auto;padding-left: 250px;padding-top: 30px;">Registration Form</h2>
+        <h3 style="padding-top: 20px;padding-left:180px;">Register your Jackson Electronics product here</h3>
+
+        <div class="cen">
+            <span >
+                <label for="#input1" class="title">First Name:</label>
+                <input type="text" id="input1">
+                <label for="">Last Name:</label>
+                <input type="text">
+            </span> <br>
+
+            <span >
+                
+                <label for="" class="title">Address #1: </label>
+                <input type="text">
+            </span> <br>
+
+            <span>
+                
+                <label for="" class="title">Address#2: </label>
+                <input  type="text">
+            </span><br>
+
+            <span>
+                <label for="" class="title">City: </label>
+                <input  type="text"> State: <input style="width: 35px;" type="text"> Zip: <input style="width: 35px;" type="text">
+            </span> <br>
+
+             <span>
+                <label for="" class="title">Country:</label>
+                <input type="text" placeholder=" United States">
+             </span>
+        </div>
+
+        <hr style="margin-top: 30px; margin-bottom: 30px; color: #000;">
+
+        <div class="bot">
+           <span>
+                <label for="" class="title">Product</label>
+
+                <select name="" id="" style="width: 160px;">
+                    <option value="">ScanMaster</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                </select>
+           </span> <br>
+
+           <span>
+            <label for="" class="title">Date Purchased:</label>
+            <input type="text">
+           </span> <br>
+
+           <span>
+            <label for="" class="title">Serial#:</label>
+            <input type="text">
+           </span> <br>
+
+           <div>
+             <label for="" class="title" style="position: relative; top: -36px">Used for:</label>
+            <span style=" display: inline-block;">
+                    <input type="radio">Home
+                 <input type="radio">Education <br>
+                 <input type="radio">Business
+                 <input type="radio">Other <br>
+                  <input type="radio">Govenment
+                 </span>
+           </div>
+           
+          <div>
+             <label for="" class="title">System(check all that apply):</label>
+                <span style="display: inline-block;">
+                    <input type="checkbox">Window
+                    <input type="checkbox">UNIX <br>
+                    <input type="checkbox">Macintosh
+                    <input type="checkbox">Other
+                </span>
+          </div>
+         
+
+        </div>
+
+        <hr style="color: #000; margin-top: 30px;margin-bottom: 30px;">
+
+        <div class="footer">
+            <label for="" class="title" style="position: relative; top:-50px">Comments</label>
+            <input type="text" style="width: 400px;height: 150px;">
+        </div><br>
+
+        <div style="margin-left: 25%;justify-content: space-between; display: inline-block;">
+            <input type="button" style="background-color:#b9b9b9 ;" value="Click to Register">
+            <input type="button" style="background-color:#c0c0c0 ;" value="Click to cancel">
+          </div>
+    </form>
+</body>
+</html>

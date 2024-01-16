@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .nav{
+            border: 2px solid #000;
+            margin-bottom: 20px;
+        }
+        .titlehead{
+            display: inline-block;
+            min-width: 100px;
+        }
+        
+        .footer{
+            
+            border: 2px;
+            border-color: #000;
+            border-style: solid;
+        }
+        form{
+            justify-content: center;
+            width: 700px;
+            margin-left: 20%;
+        }
+      .titlefooter{
+        display: inline-block;
+            min-width: 180px;
+      }
+
+      .nav>span{
+        justify-content: space-between;
+      }
+    </style>
+</head>
+<body>
+    <form>
+          <h1>Contact Us</h1>
+
+          <h3 > Your message:</h3>
+          <div class="nav">
+            
+             <span >
+                <label class="titlehead" for="">To</label>
+                <input type="text" placeholder="Example Cafe">
+             </span> <br>
+             <span >
+                <label class="titlehead" for="">Your email</label>
+                <input type="text">
+             </span><br>
+             <span >
+                <label  class="titlehead" for="">Message</label>
+                <input type="text" style="height: 200px; width: 300px;">
+             </span><br>
+             <span >
+                <label class="titlehead" for="">Attach File</label>
+                <input type="button" value="Choose File">No file choosen
+             </span>
+          </div>
+        
+          <h3>How you found us:</h3>
+        <div class="footer">
+            <span>
+            <label class="titlefooter" for="">How did you hear of us</label>
+            
+            <select name="" id="">
+                <option value="">Google</option>
+                <option value="">facebook</option>
+             </select>
+            </span> <br>
+
+            <span>
+              <label class="titlefooter" for="">Newsletter</label>
+              <input type="checkbox">Ensure this box is checked if yoi would like to recive email updates
+            </span>
+
+        </div>
+          <input type="button" value="Send message" style="color: rgb(111, 112, 114);">
+    </form>
+</body>
+</html>
